@@ -1,0 +1,84 @@
+:root {
+    color-scheme: light;
+    --twire-theme-name-light: light;
+    --twire-theme-icon-light: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyIDdhNSA1IDAgMCAxIDUgNWE1IDUgMCAwIDEtNSA1YTUgNSAwIDAgMS01LTVhNSA1IDAgMCAxIDUtNW0wIDJhMyAzIDAgMCAwLTMgM2EzIDMgMCAwIDAgMyAzYTMgMyAwIDAgMCAzLTNhMyAzIDAgMCAwLTMtM20wLTdsMi4zOSAzLjQyQzEzLjY1IDUuMTUgMTIuODQgNSAxMiA1Yy0uODQgMC0xLjY1LjE1LTIuMzkuNDJMMTIgMk0zLjM0IDdsNC4xNi0uMzVBNy4yIDcuMiAwIDAgMCA1Ljk0IDguNWMtLjQ0Ljc0LS42OSAxLjUtLjgzIDIuMjlMMy4zNCA3bS4wMiAxMGwxLjc2LTMuNzdhNy4xMzEgNy4xMzEgMCAwIDAgMi4zOCA0LjE0TDMuMzYgMTdNMjAuNjUgN2wtMS43NyAzLjc5YTcuMDIzIDcuMDIzIDAgMCAwLTIuMzgtNC4xNWw0LjE1LjM2bS0uMDEgMTBsLTQuMTQuMzZjLjU5LS41MSAxLjEyLTEuMTQgMS41NC0xLjg2Yy40Mi0uNzMuNjktMS41LjgzLTIuMjlMMjAuNjQgMTdNMTIgMjJsLTIuNDEtMy40NGMuNzQuMjcgMS41NS40NCAyLjQxLjQ0Yy44MiAwIDEuNjMtLjE3IDIuMzctLjQ0TDEyIDIyWiIvPjwvc3ZnPg==');
+    /* LIGHT - primary */
+    --twire-primary-light: hsl(190deg 66% 26%);
+    --twire-primary-hsl-light: 190deg 66% 26%;
+    --twire-primary-filter-light: brightness(0) saturate(100%) invert(21%) sepia(95%) saturate(583%) hue-rotate(162deg) brightness(97%) contrast(87%);
+    --twire-on-primary-light: hsl(0deg 0% 100%);
+    --twire-on-primary-hsl-light: 0deg 0% 100%;
+    --twire-on-primary-filter-light: brightness(0) saturate(100%) invert(100%);
+    /* LIGHT - accent */
+    --twire-accent-light: hsl(325deg 58% 30%);
+    --twire-accent-hsl-light: 325deg 58% 30%;
+    --twire-accent-filter-light: brightness(0) saturate(100%) invert(13%) sepia(46%) saturate(7490%) hue-rotate(309deg) brightness(74%) contrast(106%);
+    --twire-on-accent-light: hsl(0deg 0% 100%);
+    --twire-on-accent-hsl-light: 0deg 0% 100%;
+    --twire-on-accent-filter-light: brightness(0) saturate(100%) invert(100%);
+    /* LIGHT - default */
+    --twire-default-light: hsl(216deg 5% 81%);
+    --twire-default-hsl-light: 216deg 5% 81%;
+    --twire-default-filter-light: invert(92%) sepia(3%) saturate(248%) hue-rotate(177deg) brightness(94%) contrast(83%);
+    --twire-on-default-light: hsl(0deg 0% 0%);
+    --twire-on-default-hsl-light: 0deg 0% 0%;
+    --twire-on-default-filter-light: brightness(0) saturate(100%) invert(100%);
+    /* LIGHT - success */
+    --twire-success-light: hsl(153deg 100% 37%);
+    --twire-success-hsl-light: 153deg 100% 37%;
+    --twire-success-filter-light: brightness(0) saturate(100%) invert(40%) sepia(96%) saturate(877%) hue-rotate(119deg) brightness(103%) contrast(101%);
+    --twire-on-success-light: hsl(0deg 0% 0%);
+    --twire-on-success-hsl-light: 0deg 0% 0%;
+    --twire-on-success-filter-light: brightness(0) saturate(100%);
+    /* LIGHT - warning */
+    --twire-warning-light: hsl(32deg 100% 64%);
+    --twire-warning-hsl-light: 32deg 100% 64%;
+    --twire-warning-filter-light: brightness(0) saturate(100%) invert(80%) sepia(46%) saturate(1354%) hue-rotate(323deg) brightness(100%) contrast(104%);
+    --twire-on-warning-light: hsl(0deg 0% 0%);
+    --twire-on-warning-hsl-light: 0deg 0% 0%;
+    --twire-on-warning-filter-light: brightness(0) saturate(100%);
+    /* LIGHT - error */
+    --twire-error-light: hsl(3deg 95% 30%);
+    --twire-error-hsl-light: 3deg 95% 30%;
+    --twire-error-filter-light: brightness(0) saturate(100%) invert(6%) sepia(89%) saturate(6949%) hue-rotate(4deg) brightness(96%) contrast(97%);
+    --twire-on-error-light: hsl(0deg 0% 100%);
+    --twire-on-error-hsl-light: 0deg 0% 100%;
+    --twire-on-error-filter-light: brightness(0) saturate(100%) invert(100%);
+    /* LIGHT - navigation  */
+    --twire-navigation-light: hsl(0deg 0% 100%);
+    --twire-navigation-hsl-light: 0deg 0% 100%;
+    --twire-navigation-filter-light: brightness(0) saturate(100%) invert(100%);
+    --twire-on-navigation-light: hsl(0deg 0% 0%);
+    --twire-on-navigation-hsl-light: 0deg 0% 0%;
+    --twire-on-navigation-filter-light: brightness(0) saturate(100%) invert(0%);
+    /* LIGHT - background  */
+    --twire-background-light: hsl(0deg 0% 100%);
+    --twire-background-hsl-light: 0deg 0% 100%;
+    --twire-background-filter-light: brightness(0) saturate(100%) invert(100%);
+    --twire-on-background-light: hsl(0deg 0% 0%);
+    --twire-on-background-hsl-light: 0deg 0% 0%;
+    --twire-on-background-filter-light: brightness(0) saturate(100%);
+    /* LIGHT - surface1  */
+    --twire-surface1-light: hsl(48deg 16% 94%);
+    --twire-surface1-hsl-light: 48deg 16% 94%;
+    --twire-surface1-filter-light: brightness(0) saturate(100%) invert(93%) sepia(2%) saturate(322%) hue-rotate(11deg) brightness(103%) contrast(97%);
+    --twire-on-surface1-light: hsl(0deg 0% 0%);
+    --twire-on-surface1-hsl-light: 0deg 0% 0%;
+    --twire-on-surface1-filter-light: brightness(0) saturate(100%);
+    /* LIGHT - surface2  */
+    --twire-surface2-light: hsl(23deg 7% 78%);
+    --twire-surface2-hsl-light: 23deg 7% 78%;
+    --twire-surface2-filter-light: brightness(0) saturate(100%) invert(100%) sepia(3%) saturate(1317%) hue-rotate(322deg) brightness(98%) contrast(97%);
+    --twire-on-surface2-light: hsl(0deg 0% 0%);
+    --twire-on-surface2-hsl-light: 0deg 0% 0%;
+    --twire-on-surface2-filter-light: brightness(0) saturate(100%);
+    /* LIGHT - surface3  */
+    --twire-surface3-light: hsl(36deg 44% 83%);
+    --twire-surface3-hsl-light: 38deg 44% 90%;
+    --twire-surface3-filter-light: brightness(0) saturate(100%) invert(94%) sepia(13%) saturate(204%) hue-rotate(355deg) brightness(99%) contrast(91%);
+    --twire-on-surface3-light: hsl(0deg 0% 0%);
+    --twire-on-surface3-hsl-light: 0deg 0% 0%;
+    --twire-on-surface3-filter-light: brightness(0) saturate(100%);
+    /* LIGHT - image filter (no filter) */
+    --twire-image-filter-light: brightness(1) contrast(1);
+}

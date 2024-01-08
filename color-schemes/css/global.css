@@ -1,0 +1,308 @@
+:root,
+:root[twire-color-scheme=light] {
+    color-scheme: light;
+    --twire-theme-name: var(--twire-theme-name-light);
+    --twire-theme-icon: var(--twire-theme-icon-light);
+    /* LIGHT - primary */
+    --twire-primary: var(--twire-primary-light);
+    --twire-primary-hsl: var(--twire-primary-hsl-light);
+    --twire-primary-filter: var(--twire-primary-filter-light);
+    --twire-on-primary: var(--twire-on-primary-light);
+    --twire-on-primary-hsl: var(--twire-on-primary-hsl-light);
+    --twire-on-primary-filter: var(--twire-on-primary-filter-light);
+    /* LIGHT - accent */
+    --twire-accent: var(--twire-accent-light);
+    --twire-accent-hsl: var(--twire-accent-hsl-light);
+    --twire-accent-filter: var(--twire-accent-filter-light);
+    --twire-on-accent: var(--twire-on-accent-light);
+    --twire-on-accent-hsl: var(--twire-on-accent-hsl-light);
+    --twire-on-accent-filter: var(--twire-on-accent-filter-light);
+    /* LIGHT - default */
+    --twire-default: var(--twire-default-light);
+    --twire-default-hsl: var(--twire-default-hsl-light);
+    --twire-default-filter: var(--twire-default-filter-light);
+    --twire-on-default: var(--twire-on-default-light);
+    --twire-on-default-hsl: var(--twire-on-default-hsl-light);
+    --twire-on-default-filter: var(--twire-on-default-filter-light);
+    /* LIGHT - success */
+    --twire-success: var(--twire-success-light);
+    --twire-success-hsl: var(--twire-success-hsl-light);
+    --twire-success-filter: var(--twire-success-filter-light);
+    --twire-on-success: var(--twire-on-success-light);
+    --twire-on-success-hsl: var(--twire-on-success-hsl-light);
+    --twire-on-success-filter: var(--twire-on-success-filter-light);
+    /* LIGHT - warning */
+    --twire-warning: var(--twire-warning-light);
+    --twire-warning-hsl: var(--twire-warning-hsl-light);
+    --twire-warning-filter: var(--twire-warning-filter-light);
+    --twire-on-warning: var(--twire-on-warning-light);
+    --twire-on-warning-hsl: var(--twire-on-warning-hsl-light);
+    --twire-on-warning-filter: var(--twire-on-warning-filter-light);
+    /* LIGHT - error */
+    --twire-error: var(--twire-error-light);
+    --twire-error-hsl: var(--twire-error-hsl-light);
+    --twire-error-filter: var(--twire-error-filter-light);
+    --twire-on-error: var(--twire-on-error-light);
+    --twire-on-error-hsl: var(--twire-on-error-hsl-light);
+    --twire-on-error-filter: var(--twire-on-error-filter-light);
+    /* LIGHT - navigation */
+    --twire-navigation: var(--twire-navigation-light);
+    --twire-navigation-hsl: var(--twire-navigation-hsl-light);
+    --twire-navigation-filter: var(--twire-navigation-filter-light);
+    --twire-on-navigation: var(--twire-on-navigation-light);
+    --twire-on-navigation-hsl: var(--twire-on-navigation-hsl-light);
+    --twire-on-navigation-filter: var(--twire-on-navigation-filter-light);
+    /* LIGHT - background */
+    --twire-background: var(--twire-background-light);
+    --twire-background-hsl: var(--twire-background-hsl-light);
+    --twire-background-filter: var(--twire-background-filter-light);
+    --twire-on-background: var(--twire-on-background-light);
+    --twire-on-background-hsl: var(--twire-on-background-hsl-light);
+    --twire-on-background-filter: var(--twire-on-background-filter-light);
+    /* LIGHT - surface1 */
+    --twire-surface1: var(--twire-surface1-light);
+    --twire-surface1-hsl: var(--twire-surface1-hsl-light);
+    --twire-surface1-filter: var(--twire-surface1-filter-light);
+    --twire-on-surface1: var(--twire-on-surface1-light);
+    --twire-on-surface1-hsl: var(--twire-on-surface1-hsl-light);
+    --twire-on-surface1-filter: var(--twire-on-surface1-filter-light);
+    /* LIGHT - surface2 */
+    --twire-surface2: var(--twire-surface2-light);
+    --twire-surface2-hsl: var(--twire-surface2-hsl-light);
+    --twire-surface2-filter: var(--twire-surface2-filter-light);
+    --twire-on-surface2: var(--twire-on-surface2-light);
+    --twire-on-surface2-hsl: var(--twire-on-surface2-hsl-light);
+    --twire-on-surface2-filter: var(--twire-on-surface2-filter-light);
+    /* LIGHT - surface3 */
+    --twire-surface3: var(--twire-surface3-light);
+    --twire-surface3-hsl: var(--twire-surface3-hsl-light);
+    --twire-surface3-filter: var(--twire-surface3-filter-light);
+    --twire-on-surface3: var(--twire-on-surface3-light);
+    --twire-on-surface3-hsl: var(--twire-on-surface3-hsl-light);
+    --twire-on-surface3-filter: var(--twire-on-surface3-filter-light);
+    /* LIGHT - image filter */
+    --twire-image-filter: var(--twire-image-filter-light);
+}
+
+@media (prefers-color-scheme:dark) {
+    :root {
+        color-scheme: dark;
+        --twire-theme-name: var(--twire-theme-name-dark);
+        --twire-theme-icon: var(--twire-theme-icon-dark);
+        /* DARK - primary */
+        --twire-primary: var(--twire-primary-dark);
+        --twire-primary-hsl: var(--twire-primary-hsl-dark);
+        --twire-primary-filter: var(--twire-primary-filter-dark);
+        --twire-on-primary: var(--twire-on-primary-dark);
+        --twire-on-primary-hsl: var(--twire-on-primary-hsl-dark);
+        --twire-on-primary-filter: var(--twire-on-primary-filter-dark);
+        /* DARK - accent */
+        --twire-accent: var(--twire-accent-dark);
+        --twire-accent-hsl: var(--twire-accent-hsl-dark);
+        --twire-accent-filter: var(--twire-accent-filter-dark);
+        --twire-on-accent: var(--twire-on-accent-dark);
+        --twire-on-accent-hsl: var(--twire-on-accent-hsl-dark);
+        --twire-on-accent-filter: var(--twire-on-accent-filter-dark);
+        /* DARK - default */
+        --twire-default: var(--twire-default-dark);
+        --twire-default-hsl: var(--twire-default-hsl-dark);
+        --twire-default-filter: var(--twire-default-filter-dark);
+        --twire-on-default: var(--twire-on-default-dark);
+        --twire-on-default-hsl: var(--twire-on-default-hsl-dark);
+        --twire-on-default-filter: var(--twire-on-default-filter-dark);
+        /* DARK - success */
+        --twire-success: var(--twire-success-dark);
+        --twire-success-hsl: var(--twire-success-hsl-dark);
+        --twire-success-filter: var(--twire-success-filter-dark);
+        --twire-on-success: var(--twire-on-success-dark);
+        --twire-on-success-hsl: var(--twire-on-success-hsl-dark);
+        --twire-on-success-filter: var(--twire-on-success-filter-dark);
+        /* DARK - warning */
+        --twire-warning: var(--twire-warning-dark);
+        --twire-warning-hsl: var(--twire-warning-hsl-dark);
+        --twire-warning-filter: var(--twire-warning-filter-dark);
+        --twire-on-warning: var(--twire-on-warning-dark);
+        --twire-on-warning-hsl: var(--twire-on-warning-hsl-dark);
+        --twire-on-warning-filter: var(--twire-on-warning-filter-dark);
+        /* DARK - error */
+        --twire-error: var(--twire-error-dark);
+        --twire-error-hsl: var(--twire-error-hsl-dark);
+        --twire-error-filter: var(--twire-error-filter-dark);
+        --twire-on-error: var(--twire-on-error-dark);
+        --twire-on-error-hsl: var(--twire-on-error-hsl-dark);
+        --twire-on-error-filter: var(--twire-on-error-filter-dark);
+        /* DARK - navigation */
+        --twire-navigation: var(--twire-navigation-dark);
+        --twire-navigation-hsl: var(--twire-navigation-hsl-dark);
+        --twire-navigation-filter: var(--twire-navigation-filter-dark);
+        --twire-on-navigation: var(--twire-on-navigation-dark);
+        --twire-on-navigation-hsl: var(--twire-on-navigation-hsl-dark);
+        --twire-on-navigation-filter: var(--twire-on-navigation-filter-dark);
+        /* DARK - background */
+        --twire-background: var(--twire-background-dark);
+        --twire-background-hsl: var(--twire-background-hsl-dark);
+        --twire-background-filter: var(--twire-background-filter-dark);
+        --twire-on-background: var(--twire-on-background-dark);
+        --twire-on-background-hsl: var(--twire-on-background-hsl-dark);
+        --twire-on-background-filter: var(--twire-on-background-filter-dark);
+        /* DARK - surface1 */
+        --twire-surface1: var(--twire-surface1-dark);
+        --twire-surface1-hsl: var(--twire-surface1-hsl-dark);
+        --twire-surface1-filter: var(--twire-surface1-filter-dark);
+        --twire-on-surface1: var(--twire-on-surface1-dark);
+        --twire-on-surface1-hsl: var(--twire-on-surface1-hsl-dark);
+        --twire-on-surface1-filter: var(--twire-on-surface1-filter-dark);
+        /* DARK - surface2 */
+        --twire-surface2: var(--twire-surface2-dark);
+        --twire-surface2-hsl: var(--twire-surface2-hsl-dark);
+        --twire-surface2-filter: var(--twire-surface2-filter-dark);
+        --twire-on-surface2: var(--twire-on-surface2-dark);
+        --twire-on-surface2-hsl: var(--twire-on-surface2-hsl-dark);
+        --twire-on-surface2-filter: var(--twire-on-surface2-filter-dark);
+        /* DARK - surface3 */
+        --twire-surface3: var(--twire-surface3-dark);
+        --twire-surface3-hsl: var(--twire-surface3-hsl-dark);
+        --twire-surface3-filter: var(--twire-surface3-filter-dark);
+        --twire-on-surface3: var(--twire-on-surface3-dark);
+        --twire-on-surface3-hsl: var(--twire-on-surface3-hsl-dark);
+        --twire-on-surface3-filter: var(--twire-on-surface3-filter-dark);
+        /* DARK - image filter */
+        --twire-image-filter: var(--twire-image-filter-dark);
+    }
+}
+
+:root[twire-color-scheme=dark] {
+    color-scheme: dark;
+    --twire-theme-name: var(--twire-theme-name-dark);
+    --twire-theme-icon: var(--twire-theme-icon-dark);
+    /* DARK - primary */
+    --twire-primary: var(--twire-primary-dark);
+    --twire-primary-hsl: var(--twire-primary-hsl-dark);
+    --twire-primary-filter: var(--twire-primary-filter-dark);
+    --twire-on-primary: var(--twire-on-primary-dark);
+    --twire-on-primary-hsl: var(--twire-on-primary-hsl-dark);
+    --twire-on-primary-filter: var(--twire-on-primary-filter-dark);
+    /* DARK - accent */
+    --twire-accent: var(--twire-accent-dark);
+    --twire-accent-hsl: var(--twire-accent-hsl-dark);
+    --twire-accent-filter: var(--twire-accent-filter-dark);
+    --twire-on-accent: var(--twire-on-accent-dark);
+    --twire-on-accent-hsl: var(--twire-on-accent-hsl-dark);
+    --twire-on-accent-filter: var(--twire-on-accent-filter-dark);
+    /* DARK - default */
+    --twire-default: var(--twire-default-dark);
+    --twire-default-hsl: var(--twire-default-hsl-dark);
+    --twire-default-filter: var(--twire-default-filter-dark);
+    --twire-on-default: var(--twire-on-default-dark);
+    --twire-on-default-hsl: var(--twire-on-default-hsl-dark);
+    --twire-on-default-filter: var(--twire-on-default-filter-dark);
+    /* DARK - success */
+    --twire-success: var(--twire-success-dark);
+    --twire-success-hsl: var(--twire-success-hsl-dark);
+    --twire-success-filter: var(--twire-success-filter-dark);
+    --twire-on-success: var(--twire-on-success-dark);
+    --twire-on-success-hsl: var(--twire-on-success-hsl-dark);
+    --twire-on-success-filter: var(--twire-on-success-filter-dark);
+    /* DARK - warning */
+    --twire-warning: var(--twire-warning-dark);
+    --twire-warning-hsl: var(--twire-warning-hsl-dark);
+    --twire-warning-filter: var(--twire-warning-filter-dark);
+    --twire-on-warning: var(--twire-on-warning-dark);
+    --twire-on-warning-hsl: var(--twire-on-warning-hsl-dark);
+    --twire-on-warning-filter: var(--twire-on-warning-filter-dark);
+    /* DARK - error */
+    --twire-error: var(--twire-error-dark);
+    --twire-error-hsl: var(--twire-error-hsl-dark);
+    --twire-error-filter: var(--twire-error-filter-dark);
+    --twire-on-error: var(--twire-on-error-dark);
+    --twire-on-error-hsl: var(--twire-on-error-hsl-dark);
+    --twire-on-error-filter: var(--twire-on-error-filter-dark);
+    /* DARK - navigation */
+    --twire-navigation: var(--twire-navigation-dark);
+    --twire-navigation-hsl: var(--twire-navigation-hsl-dark);
+    --twire-navigation-filter: var(--twire-navigation-filter-dark);
+    --twire-on-navigation: var(--twire-on-navigation-dark);
+    --twire-on-navigation-hsl: var(--twire-on-navigation-hsl-dark);
+    --twire-on-navigation-filter: var(--twire-on-navigation-filter-dark);
+    /* DARK - background */
+    --twire-background: var(--twire-background-dark);
+    --twire-background-hsl: var(--twire-background-hsl-dark);
+    --twire-background-filter: var(--twire-background-filter-dark);
+    --twire-on-background: var(--twire-on-background-dark);
+    --twire-on-background-hsl: var(--twire-on-background-hsl-dark);
+    --twire-on-background-filter: var(--twire-on-background-filter-dark);
+    /* DARK - surface1 */
+    --twire-surface1: var(--twire-surface1-dark);
+    --twire-surface1-hsl: var(--twire-surface1-hsl-dark);
+    --twire-surface1-filter: var(--twire-surface1-filter-dark);
+    --twire-on-surface1: var(--twire-on-surface1-dark);
+    --twire-on-surface1-hsl: var(--twire-on-surface1-hsl-dark);
+    --twire-on-surface1-filter: var(--twire-on-surface1-filter-dark);
+    /* DARK - surface2 */
+    --twire-surface2: var(--twire-surface2-dark);
+    --twire-surface2-hsl: var(--twire-surface2-hsl-dark);
+    --twire-surface2-filter: var(--twire-surface2-filter-dark);
+    --twire-on-surface2: var(--twire-on-surface2-dark);
+    --twire-on-surface2-hsl: var(--twire-on-surface2-hsl-dark);
+    --twire-on-surface2-filter: var(--twire-on-surface2-filter-dark);
+    /* DARK - surface3 */
+    --twire-surface3: var(--twire-surface3-dark);
+    --twire-surface3-hsl: var(--twire-surface3-hsl-dark);
+    --twire-surface3-filter: var(--twire-surface3-filter-dark);
+    --twire-on-surface3: var(--twire-on-surface3-dark);
+    --twire-on-surface3-hsl: var(--twire-on-surface3-hsl-dark);
+    --twire-on-surface3-filter: var(--twire-on-surface3-filter-dark);
+    /* DARK - image filter */
+    --twire-image-filter: var(--twire-image-filter-dark);
+}
+
+::selection {
+    background: var(--twire-primary);
+    color: var(--twire-on-primary);
+}
+
+/* firefox scrollbar */
+html {
+    scrollbar-width: auto;
+    scrollbar-color: var(--twire-primary) var(--twire-background);
+}
+
+/* Chrome, Edge, and Safari scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--twire-background);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--twire-primary);
+    border-radius: 8px;
+}
+
+:root[twire-color-scheme] body,
+:root[twire-color-scheme] body.wp-admin * {
+    --wp--preset--color--custom-primary: var(--twire-primary);
+    --wp--preset--color--custom-on-primary: var(--twire-on-primary);
+    --wp--preset--color--custom-accent: var(--twire-accent);
+    --wp--preset--color--custom-on-accent: var(--twire-on-accent);
+    --wp--preset--color--custom-default: var(--twire-default);
+    --wp--preset--color--custom-on-default: var(--twire-on-default);
+    --wp--preset--color--custom-navigation: var(--twire-navigation);
+    --wp--preset--color--custom-on-navigation: var(--twire-on-navigation);
+    --wp--preset--color--custom-background: var(--twire-background);
+    --wp--preset--color--custom-on-background: var(--twire-on-background);
+    --wp--preset--color--custom-surface-1: var(--twire-surface1);
+    --wp--preset--color--custom-on-surface-1: var(--twire-on-surface1);
+    --wp--preset--color--custom-surface-2: var(--twire-surface2);
+    --wp--preset--color--custom-on-surface-2: var(--twire-on-surface2);
+    --wp--preset--color--custom-surface-3: var(--twire-surface3);
+    --wp--preset--color--custom-on-surface-3: var(--twire-on-surface3);
+    --wp--preset--color--custom-success: var(--twire-success);
+    --wp--preset--color--custom-on-success: var(--twire-on-success);
+    --wp--preset--color--custom-warning: var(--twire-warning);
+    --wp--preset--color--custom-on-warning: var(--twire-on-warning);
+    --wp--preset--color--custom-error: var(--twire-error);
+    --wp--preset--color--custom-on-error: var(--twire-on-error);
+}

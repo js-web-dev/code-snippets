@@ -1,0 +1,36 @@
+:root {
+    --twire-border-radius-default: 2px;
+    --twire-border-radius-pill: 24px;
+    --twire-border-radius-circle: 50%;
+
+    --twire-filter-lighter: brightness(1.1) contrast(0.9);
+    --twire-filter-darker: brightness(0.9) contrast(1.1);
+
+    --twire-box-shadow-01dp: 0px 1px 1px 0px hsl(0deg 0% 0% / .14), 0px 2px 1px -1px hsl(0deg 0% 0% / .12), 0px 1px 3px 0px hsl(0deg 0% 0% / .2);
+    --twire-box-shadow-02dp: 0px 2px 2px 0px hsl(0deg 0% 0% / .14), 0px 3px 1px -2px hsl(0deg 0% 0% / .12), 0px 1px 5px 0px hsl(0deg 0% 0% / .2);
+    --twire-box-shadow-03dp: 0px 3px 4px 0px hsl(0deg 0% 0% / .14), 0px 3px 3px -2px hsl(0deg 0% 0% / .12), 0px 1px 8px 0px hsl(0deg 0% 0% / .2);
+    --twire-box-shadow-04dp: 0px 4px 5px 0px hsl(0deg 0% 0% / .14), 0px 1px 10px 0px hsl(0deg 0% 0% / .12), 0px 2px 4px -1px hsl(0deg 0% 0% / .2);
+    --twire-box-shadow-06dp: 0px 6px 10px 0px hsl(0deg 0% 0% / .14), 0px 1px 18px 0px hsl(0deg 0% 0% / .12), 0px 3px 5px -1px hsl(0deg 0% 0% / .2);
+    --twire-box-shadow-08dp: 0px 8px 10px 1px hsl(0deg 0% 0% / .14), 0px 3px 14px 2px hsl(0deg 0% 0% / .12), 0px 5px 5px -3px hsl(0deg 0% 0% / .2);
+    --twire-box-shadow-12dp: 0px 12px 17px 2px hsl(0deg 0% 0% / .14), 0px 5px 22px 4px hsl(0deg 0% 0% / .12), 0px 7px 8px -4px hsl(0deg 0% 0% / .2);
+    --twire-box-shadow-16dp: 0px 16px 24px 2px hsl(0deg 0% 0% / .14), 0px 6px 30px 5px hsl(0deg 0% 0% / .12), 0px 8px 10px -5px hsl(0deg 0% 0% / .2);
+    --twire-box-shadow-24dp: 0px 24px 38px 3px hsl(0deg 0% 0% / .14), 0px 9px 46px 8px hsl(0deg 0% 0% / .12), 0px 11px 15px -7px hsl(0deg 0% 0% / .2);
+
+    --twire-box-shadow-1: 0px 1px 2px 0px hsl(0deg 0% 0% / .3), 0px 1px 3px 1px hsl(0deg 0% 0% / .15);
+    --twire-box-shadow-2: 0px 1px 2px 0px hsl(0deg 0% 0% / .3), 0px 2px 6px 2px hsl(0deg 0% 0% / .15);
+    --twire-box-shadow-3: 0px 1px 3px 0px hsl(0deg 0% 0% / .3), 0px 4px 8px 3px hsl(0deg 0% 0% / .15);
+
+    --twire-filter-drop-shadow-01dp: drop-shadow(0px 1px 1px hsl(0deg 0% 0% / .14)) drop-shadow(0px 2px 1px hsl(0deg 0% 0% / .12)) drop-shadow(0px 1px 3px hsl(0deg 0% 0% / .2));
+    --twire-filter-drop-shadow-02dp: drop-shadow(0px 2px 2px hsl(0deg 0% 0% / .14)) drop-shadow(0px 3px 1px hsl(0deg 0% 0% / .12)) drop-shadow(0px 1px 5px hsl(0deg 0% 0% / .2));
+    --twire-filter-drop-shadow-03dp: drop-shadow(0px 3px 4px hsl(0deg 0% 0% / .14)) drop-shadow(0px 3px 3px hsl(0deg 0% 0% / .12)) drop-shadow(0px 1px 8px hsl(0deg 0% 0% / .2));
+    --twire-filter-drop-shadow-04dp: drop-shadow(0px 4px 5px hsl(0deg 0% 0% / .14)) drop-shadow(0px 1px 10px hsl(0deg 0% 0% / .12)) drop-shadow(0px 2px 4px hsl(0deg 0% 0% / .2));
+    --twire-filter-drop-shadow-06dp: drop-shadow(0px 6px 10px hsl(0deg 0% 0% / .14)) drop-shadow(0px 1px 18px hsl(0deg 0% 0% / .12)) drop-shadow(0px 3px 5px hsl(0deg 0% 0% / .2));
+    --twire-filter-drop-shadow-08dp: drop-shadow(0px 8px 10px hsl(0deg 0% 0% / .14)) drop-shadow(0px 3px 14px hsl(0deg 0% 0% / .12)) drop-shadow(0px 5px 5px hsl(0deg 0% 0% / .2));
+    --twire-filter-drop-shadow-12dp: drop-shadow(0px 12px 17px hsl(0deg 0% 0% / .14)) drop-shadow(0px 5px 22px hsl(0deg 0% 0% / .12)) drop-shadow(0px 7px 8px hsl(0deg 0% 0% / .2));
+    --twire-filter-drop-shadow-16dp: drop-shadow(0px 16px 24px hsl(0deg 0% 0% / .14)) drop-shadow(0px 6px 30px hsl(0deg 0% 0% / .12)) drop-shadow(0px 8px 10px hsl(0deg 0% 0% / .2));
+    --twire-filter-drop-shadow-24dp: drop-shadow(0px 24px 38px hsl(0deg 0% 0% / .14)) drop-shadow(0px 9px 46px hsl(0deg 0% 0% / .12)) drop-shadow(0px 11px 15px hsl(0deg 0% 0% / .2));
+
+    --twire-filter-drop-shadow-1: drop-shadow(0px 1px 2px hsl(0deg 0% 0% / .3)) drop-shadow(0px 1px 3px hsl(0deg 0% 0% / .15));
+    --twire-filter-drop-shadow-2: drop-shadow(0px 1px 2px hsl(0deg 0% 0% / .3)) drop-shadow(0px 2px 6px hsl(0deg 0% 0% / .15));
+    --twire-filter-drop-shadow-3: drop-shadow(0px 1px 3px hsl(0deg 0% 0% / .3)) drop-shadow(0px 4px 8px hsl(0deg 0% 0% / .15));
+}
